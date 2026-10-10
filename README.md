@@ -17,10 +17,10 @@ Intentube is a Chrome extension (MV3) that keeps your YouTube feed on purpose. Y
 ## How it works
 
 ### Flow Chart
-![alt text](./docs/mermaid/flow-chart.png)
+<img src="docs/mermaid/flow-chart.png" width="450" alt="Flow of data from popup to feed">
 
 ### Sequence Diagram
-![alt text](./docs/mermaid/sequence-diagram.png)
+<img src="docs/mermaid/sequence-diagram.png" width="700" alt="Step-by-step classification sequence">
 
 Key design points:
 
@@ -112,7 +112,7 @@ Shorts-only mode: enable *Hide short videos* with no intent set — intent filte
 ## Screenshots
 
 ### Popup Screen
-![alt text](./docs/screenshots/popup.png)
+<img src="docs/screenshots/popup.png" width="340" alt="Popup with topics, key field, and sliders">
 
 ### Feed Dimmed
-![alt text](./docs/screenshots/feed-dimmed.png)
+<img src="docs/screenshots/feed-dimmed.png" width="700" alt="YouTube feed with off-topic videos faded">

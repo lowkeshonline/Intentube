@@ -1,0 +1,226 @@
+.popup {
+  width: 360px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.brand-header {
+  margin-bottom: 12px;
+}
+
+.brand-header img {
+  display: block;
+  width: 280px;
+  height: auto;
+}
+
+.brand-header p {
+  margin: 4px 0 0;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.top-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.top-actions button {
+  flex: 1;
+  margin-top: 0;
+}
+
+.reset-button {
+  border: 1px solid #174b3a;
+  color: #174b3a;
+  background: white;
+}
+
+label {
+  margin-top: 8px;
+  font-weight: 600;
+}
+
+textarea,
+input:not([type='checkbox']):not([type='range']),
+select {
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  padding: 10px;
+  font: inherit;
+}
+
+textarea {
+  min-height: 88px;
+  resize: vertical;
+}
+
+.filter-settings {
+  min-width: 0;
+  margin: 0;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.filter-settings legend {
+  padding: 0 4px;
+  font-weight: 600;
+}
+
+.filter-settings label {
+  display: block;
+  margin: 8px 0 4px;
+}
+
+.filter-settings input[type='range'] {
+  width: 100%;
+  margin: 4px 0 0;
+  padding: 0;
+  accent-color: #174b3a;
+}
+
+.range-labels {
+  display: flex;
+  justify-content: space-between;
+  color: #666;
+  font-size: 0.75rem;
+}
+
+.api-key-field {
+  position: relative;
+}
+
+.api-key-field input#api-key {
+  padding-right: 52px;
+}
+
+.visibility-button {
+  position: absolute;
+  top: 50%;
+  right: 6px;
+  display: grid;
+  place-items: center;
+  margin: 0;
+  padding: 6px;
+  border: 0;
+  color: #444;
+  background: transparent;
+  transform: translateY(-50%);
+}
+
+.visibility-button svg {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+}
+
+.niche-picker {
+  min-width: 0;
+  margin: 0;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.niche-picker legend {
+  padding: 0 4px;
+  font-weight: 600;
+}
+
+.niche-picker .hint {
+  margin: 0 0 8px;
+}
+
+.niche-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.niche-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  margin: 0;
+  font-size: 0.86rem;
+  font-weight: 400;
+}
+
+.niche-option input[type='checkbox'] {
+  flex: none;
+  width: auto;
+  margin: 3px 0 0;
+}
+
+.niche-option input:disabled + span {
+  opacity: 0.5;
+}
+
+.hint {
+  color: #666;
+  font-size: 0.8rem;
+}
+
+button {
+  margin-top: 8px;
+  border: 0;
+  border-radius: 6px;
+  padding: 10px;
+  color: white;
+  background: #174b3a;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: wait;
+  opacity: 0.6;
+}
+
+.message {
+  min-height: 1.2em;
+  margin: 0;
+  color: #174b3a;
+  font-size: 0.9rem;
+}
+
+.shorts-toggle {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+  gap: 8px;
+  margin: 0;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.filter-settings .shorts-toggle {
+  display: flex;
+}
+
+.shorts-toggle input[type='checkbox'] {
+  flex: none;
+  width: auto;
+  margin: 0;
+  accent-color: #174b3a;
+}
+
+.shorts-toggle span {
+  line-height: 1.25;
+}
